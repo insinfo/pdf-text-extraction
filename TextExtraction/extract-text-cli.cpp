@@ -136,7 +136,7 @@ int main(int argc, char* argv[])
                     cerr << "Error: Cannot open target file path for writing in" << outputFilePath.c_str() << endl;
                 }
                 else {
-                    string result = textExtraction.GetResultsAsText(bidiFlag);
+                    string result = textExtraction.GetResultsAsXML(bidiFlag).str();
                     InputStringStream textStream(result);		
                     OutputStreamTraits streamCopier((IByteWriter*)outputFile.GetOutputStream());
 		            status = streamCopier.CopyToOutputStream(&textStream);
@@ -144,7 +144,8 @@ int main(int argc, char* argv[])
 
             }
             else if(!quiet) {
-                cout<<textExtraction.GetResultsAsText(bidiFlag).c_str();
+                string stri = textExtraction.GetResultsAsXML(bidiFlag).str();
+                cout << stri.c_str();
             }
         }
 

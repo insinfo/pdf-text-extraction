@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\bidi\BidiConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Encoding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\FontDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\StandardFontsDimensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\pdf-writer-enhancers\Bytes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFRecursiveInterpreter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacementsCollector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TPCollectionState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\Transformations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\extract-text-cli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\TextExtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TextExtraction\Lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\bidi\BidiConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\FontDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\StandardFontsDimensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\IPDFInterpreterHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\IPDFRecursiveInterpreterHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\pdf-writer-enhancers\Bytes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFRecursiveInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacementsCollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TPCollectionState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\Transformations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\ErrorsAndWarnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\TextExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TextExtraction\Lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DAD5F5C7-EAE2-37B9-B172-D28F9915E0E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5051BF3-8C0C-3D9A-B420-17F63B76849F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

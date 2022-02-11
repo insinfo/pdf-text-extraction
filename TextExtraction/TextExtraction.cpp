@@ -45,8 +45,6 @@ EStatusCode TextExtraction::ExtractTextPlacements(PDFParser* inParser, long inSt
 
         textPlacementsForPages.push_back(TextElementList(texts));
     }    
-
-
     return status;
 }
 
@@ -219,7 +217,13 @@ EStatusCode TextExtraction::ComputeResultPlacements() {
     return eSuccess;
 }
 
-
+/// <summary>
+/// long startPage = 0; long endPage = -1;
+/// </summary>
+/// <param name="inFilePath"></param>
+/// <param name="inStartPage"></param>
+/// <param name="inEndPage"></param>
+/// <returns></returns>
 EStatusCode TextExtraction::ExtractText(const std::string& inFilePath, long inStartPage, long inEndPage) {
     EStatusCode status = eSuccess;
     InputFile sourceFile;
@@ -241,7 +245,6 @@ EStatusCode TextExtraction::ExtractText(const std::string& inFilePath, long inSt
             break;
         }
 
-
         PDFParser parser;
         status = parser.StartPDFParsing(sourceFile.GetInputStream());
         if(status != eSuccess)
@@ -249,12 +252,14 @@ EStatusCode TextExtraction::ExtractText(const std::string& inFilePath, long inSt
             LatestError.code = eErrorInternalPDFWriter;
             LatestError.description = string("Failed to parse template file");
             break;
-        }
-
+        }    
+      
         // 1st phase - extract text placements
         status = ExtractTextPlacements(&parser, inStartPage, inEndPage);
         if(status != eSuccess)
             break;
+
+        //sourceFile.CloseFile();
 
         // 2nd phase - translate encoded bytes to text strings.
         status = Translate(&parser);
@@ -275,6 +280,55 @@ EStatusCode TextExtraction::ExtractText(const std::string& inFilePath, long inSt
     } while(false);
 
     return status;
+}
+
+int TextExtraction::GetPagesCount(const std::string& inFilePath) {
+    EStatusCode status = eSuccess;
+    auto re = Parser(inFilePath);
+    status = std::get<0>(re);
+    PDFParser* parser = std::get<1>(re);
+    if (status != eSuccess) {
+        cerr << "Error: " << LatestError.description.c_str() << endl;
+        return -1;
+    }
+    return  parser->GetPagesCount();
+    // println(pages);
+    // cerr << "Error: " << LatestError.description.c_str() << endl;
+}
+
+std::tuple<EStatusCode, PDFParser*> TextExtraction::Parser(const std::string& inFilePath){
+    EStatusCode status = eSuccess;
+
+    InputFile sourceFile;
+
+    LatestWarnings.clear();
+    LatestError.code = eErrorNone;
+    LatestError.description = scEmpty;
+
+    textPlacementsForPages.clear();
+    refrencedFontDecoderCache.clear();
+    embeddedFontDecoderCache.clear();
+    textsForPages.clear();
+    PDFParser parser;
+    do {
+        status = sourceFile.OpenFile(inFilePath);
+        if (status != eSuccess) {
+            LatestError.code = eErrorFileNotReadable;
+            LatestError.description = string("Cannot read template file ") + inFilePath;
+            cerr << "Error: " << LatestError.description.c_str() << endl;
+            break;
+        }
+       
+        status = parser.StartPDFParsing(sourceFile.GetInputStream());
+        if (status != eSuccess)
+        {
+             LatestError.code = eErrorInternalPDFWriter;
+             LatestError.description = string("Failed to parse template file");
+             cerr << "Error: " << LatestError.description.c_str() << endl;
+             break;
+        }
+    } while (false);
+    return std::make_tuple(status, &parser);
 }
 
 const double LINE_HEIGHT_THRESHOLD = 5;
@@ -401,6 +455,60 @@ std::string TextExtraction::GetResultsAsText(int bidiFlag) {
     }
 
     return result.str();
+}
+
+std::stringstream TextExtraction::GetResultsAsXML(int bidiFlag) {
+    stringstream result;
+    BidiConversion bidi;
+    ResultTextCommandListList::iterator itPages = textsForPages.begin();
+    auto idx = 0;
+    result << "<?xml version=\"1.0\" encoding=\"utf-8\"?>" << scCRLN;
+    result << "<pages>" << scCRLN;
+    for (; itPages != textsForPages.end(); ++itPages) {
+
+        //cerr << "Info: page=" << idx << endl;
+        result << "<page id=\"" << idx << "\">" << scCRLN;
+
+        ResultTextCommandVector sortedPageTextCommands(itPages->begin(), itPages->end());
+        sort(sortedPageTextCommands.begin(), sortedPageTextCommands.end(), CompareResultTextCommand);
+
+        ResultTextCommandVector::iterator itCommands = sortedPageTextCommands.begin();
+        if (itCommands != sortedPageTextCommands.end()) {
+            // k. got some text, let's build it
+            stringstream lineResult;
+            ResultTextCommand& latestItem = *itCommands;
+            lineResult << latestItem.text;
+            ++itCommands;
+            for (; itCommands != sortedPageTextCommands.end(); ++itCommands) {
+                if (!AreSameLine(latestItem, *itCommands)) {
+                    if (bidiFlag == -1) {
+                        result << lineResult.str();
+                    }
+                    else {
+                        string bidiResult;
+                        bidi.ConvertVisualToLogical(lineResult.str(), bidiFlag, bidiResult); // returning status may be used to convey that's succeeded
+                        result << bidiResult;
+                    }
+                    result << scCRLN;
+                    lineResult.str(scEmpty);
+                }
+                lineResult << itCommands->text;
+                latestItem = *itCommands;
+            }
+            if (bidiFlag == -1) {
+                result << lineResult.str(); 
+            }
+            else {
+                string bidiResult;
+                bidi.ConvertVisualToLogical(lineResult.str(), bidiFlag, bidiResult); // returning status may be used to convey that's succeeded
+                result << bidiResult;                
+            }
+            result << scCRLN  << "</page>" << scCRLN;           
+        }
+        idx++;       
+    }
+    result << "</pages>";
+    return result;
 }
 
 

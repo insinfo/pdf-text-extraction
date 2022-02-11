@@ -1,0 +1,1 @@
+C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\Release\LibTiff_OBJLIB.lib

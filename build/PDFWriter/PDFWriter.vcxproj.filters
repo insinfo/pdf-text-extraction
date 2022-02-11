@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\AbstractContentContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\AbstractWrittenFont.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\ANSIFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Ascii7Encoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\ArrayOfInputStreamsStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CatalogInformation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFANSIFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFDescendentFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFEmbeddedFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFFileInput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFPrimitiveReader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CFFPrimitiveWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CharStringType1Interpreter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CharStringType1Tracer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CharStringType2Flattener.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CharStringType2Interpreter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CharStringType2Tracer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CIDFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\CMYKRGBColor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\DecryptionHelper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\DescendentFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\DictionaryContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\DocumentContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\EncryptionHelper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\EncryptionOptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\FontDescriptorWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\FreeTypeFaceWrapper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\FreeTypeOpenTypeWrapper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\FreeTypeType1Wrapper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\FreeTypeWrapper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\GraphicState.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\GraphicStateStack.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\IndirectObjectsReferenceRegistry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InfoDictionary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputAESDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputAscii85DecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputAsciiHexDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputBufferedStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputByteArrayStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputCharStringDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputDCTDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputFile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputFileStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputFlateDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputLZWDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputLimitedStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputRC4XcodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputPFBDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputPredictorPNGOptimumStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputPredictorTIFFSubStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputStreamSkipperStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputStringBufferStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\InputStringStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\JPEGImageHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\JPEGImageInformation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\JPEGImageParser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\MD5Generator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\RC4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\ObjectsContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OpenTypeFileInput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OpenTypePrimitiveReader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputAESEncodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputBufferedStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputFile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputFileStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputFlateDecodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputFlateEncodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputRC4XcodeStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputStreamTraits.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\OutputStringBufferStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PageContentContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PageTree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\ParsedPrimitiveHelper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFArray.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFBoolean.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFCosArray.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFCosDict.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDictionary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDocEncoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDocumentCopyingContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDocumentHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFFormXObject.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFTiledPattern.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TiledPatternContentContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFHexString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFImageXObject.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFIndirectObjectReference.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFInteger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFLiteralString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFModifiedPage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFName.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFNull.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFObject.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFObjectParser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFPage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFPageInput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFDictionaryIterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFArrayIterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFPageMergingHelper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFParser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFParserTokenizer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFParsingOptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFReal.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFRectangle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFStreamInput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFSymbol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFTextString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFUsedFont.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PDFWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PFMFileReader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PNGImageHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PrimitiveObjectsWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\PSBool.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\RefCountObject.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\ResourcesDictionary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\SimpleStringTokenizer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\StandardEncoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\StateReader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\StateWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TIFFImageHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TiffUsageParameters.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Timer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TimersRegistry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Trace.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TrailerInformation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TrueTypeANSIFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TrueTypeDescendentFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TrueTypeEmbeddedFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\TrueTypePrimitiveWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Type1Input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Type1ToCFFEmbeddedFontWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Type1ToType2Converter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\Type2CharStringWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\UnicodeString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\UppercaseSequance.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\UsedFontsRepository.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\WinAnsiEncoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\WrittenFontCFF.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\WrittenFontTrueType.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\XCryptionCommon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\$(Configuration)\XObjectContentContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -12,8 +12,15 @@
 #include <string>
 #include <list>
 
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+
 typedef std::list<TextElementList> TextElementListList;
 typedef std::list<ResultTextCommandList> ResultTextCommandListList;
+
+template<typename T>
+void println(T&& x) { std::cout << x << std::endl; }
 
 class PDFObject;
 class PDFParser;
@@ -39,6 +46,10 @@ class TextExtraction {
 
         PDFHummus::EStatusCode ExtractText(const std::string& inFilePath, long inStartPage=0, long inEndPage=-1);
 
+        int GetPagesCount(const std::string& inFilePath);
+
+        std::tuple<PDFHummus::EStatusCode, PDFParser*> Parser(const std::string& inFilePath);
+
         TextExtractionError LatestError;
         TextExtractionWarningList LatestWarnings;  
 
@@ -52,6 +63,7 @@ class TextExtraction {
         );
 
         std::string GetResultsAsText(int bidiFlag);
+        std::stringstream TextExtraction::GetResultsAsXML(int bidiFlag);
 
     private:
         // interim work construct

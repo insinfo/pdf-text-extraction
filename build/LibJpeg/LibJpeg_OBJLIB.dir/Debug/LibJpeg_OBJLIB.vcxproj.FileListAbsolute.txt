@@ -1,0 +1,1 @@
+C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\Debug\LibJpeg_OBJLIB.lib

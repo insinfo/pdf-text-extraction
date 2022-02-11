@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aescrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aeskey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aes_modes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aes_ni.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aestab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aescpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aes_ni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aesopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aestab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\aes_via_ace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\brg_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\brg_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DAD5F5C7-EAE2-37B9-B172-D28F9915E0E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5051BF3-8C0C-3D9A-B420-17F63B76849F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
