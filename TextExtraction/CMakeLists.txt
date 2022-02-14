@@ -1,8 +1,12 @@
-project(TextExtraction)
+project(TextExtraction VERSION 1.0.1 DESCRIPTION "TextExtraction description")
 cmake_minimum_required (VERSION 3.10)
-
-
-add_executable(TextExtraction 
+#isaque alterou aqui
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fvisibility=hidden")
+#export CFLAGS="-fPIC -fvisibility=hidden" export CXXFLAGS="-fPIC -fvisibility=hidden"
+#add_executable(TextExtraction 
+# Create shared library
+add_library(TextExtraction SHARED
 lib/bidi/BidiConversion.cpp
 lib/bidi/BidiConversion.h
 lib/font-translation/Encoding.cpp
@@ -28,9 +32,11 @@ lib/text-placements/TPCollectionState.h
 lib/text-placements/Transformations.cpp
 lib/text-placements/Transformations.h
 ErrorsAndWarnings.h
-extract-text-cli.cpp
+#extract-text-cli.cpp
 TextExtraction.cpp
 TextExtraction.h
+Lib.cpp
+Lib.h
 )
 
 if(PDFHUMMUS_NO_DCT)
@@ -310,3 +316,13 @@ endif(APPLE)
 install(TARGETS TextExtraction
     RUNTIME DESTINATION bin COMPONENT executable
 )
+
+# Install library
+# install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
+
+# Install library headers
+#file(GLOB HEADERS include/*.h)
+#install(FILES ${HEADERS} DESTINATION include/${PROJECT_NAME})
+
+message(CFLAGS=${CFLAGS})
+message(CXXFLAGS=${CXXFLAGS})

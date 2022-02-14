@@ -1,6 +1,7 @@
 #include "Lib.h"
 #include <iostream>
 #include <string>
+#include <cstring> //for strcpy
 
 #include "EStatusCode.h"
 #include "BoxingBase.h"
@@ -53,6 +54,7 @@ char* extractText(const char* inFilePath, int startPage, int endPage, int (*call
 
 		return cstr;
 	}
-	
-	return "-1";
+	char* re = new char[2 + 1];
+	strcpy(re, "-1");	
+	return re;
 }

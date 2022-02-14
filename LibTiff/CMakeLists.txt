@@ -6,6 +6,10 @@ set(LIBTIFF_LDFLAGS LibTiff PARENT_SCOPE)
 
 include_directories (${Zlib_SOURCE_DIR})
 
+#isaque 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fvisibility=hidden")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
+
 add_definitions(
 -D_CRT_SECURE_NO_DEPRECATE=1
 -DAVOID_WIN32_FILEIO=1

@@ -63,7 +63,7 @@ class TextExtraction {
         );
 
         std::string GetResultsAsText(int bidiFlag);
-        std::stringstream TextExtraction::GetResultsAsXML(int bidiFlag);
+        std::stringstream GetResultsAsXML(int bidiFlag);
 
     private:
         // interim work construct

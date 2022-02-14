@@ -11,6 +11,9 @@ include_directories (${FreeType_SOURCE_DIR}/include/freetype/config)
 include_directories (${FreeType_SOURCE_DIR}/include/src)
 include_directories (${FreeType_SOURCE_DIR}/include/freetype/internal)
 include_directories (${FreeType_SOURCE_DIR}/include/freetype/internal/services)
+#isaque 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fvisibility=hidden")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
 
 add_library (FreeType_OBJLIB OBJECT
 #sources
