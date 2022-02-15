@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3AFFADA0-9E13-3794-99DD-D7802685963A}</ProjectGuid>
+    <ProjectGuid>{F47A9A4D-6B7E-3320-9775-784E66230A2F}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,19 +59,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibPng.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibPng</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibPng.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibPng</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LibPng.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LibPng</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LibPng.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LibPng</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -212,7 +212,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibPng/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibPng/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibPng/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibPng/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibPng/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibPng/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibPng/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibPng/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibPng/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibPng/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibPng/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibPng/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,42 +260,42 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibPng\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibPng\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\png.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngerror.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngget.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngmem.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngpread.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngread.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrio.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrtran.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrutil.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngset.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngtrans.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwio.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwrite.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwtran.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwutil.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\png.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngerror.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngget.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngmem.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngpread.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngread.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrio.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrtran.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrutil.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngset.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngtrans.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwio.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwrite.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwtran.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwutil.obj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZERO_CHECK.vcxproj">
-      <Project>{C0A73AB9-7E49-3100-BE48-D0A5E2336D4C}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\ZERO_CHECK.vcxproj">
+      <Project>{173F2E63-0B31-33DD-9F13-844CA1C3456F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.vcxproj">
-      <Project>{2E123EED-183F-3704-8269-24D053C5D9E9}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.vcxproj">
+      <Project>{6679546D-79C7-38C1-A7D1-13CC8AAE285B}</Project>
       <Name>LibPng_OBJLIB</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib.vcxproj">
-      <Project>{6D47D83B-D958-3300-AC34-5C8CD3DC25E6}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib.vcxproj">
+      <Project>{D01672FB-BA86-377A-A0DD-B39D76583157}</Project>
       <Name>Zlib</Name>
     </ProjectReference>
   </ItemGroup>

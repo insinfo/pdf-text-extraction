@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibJpeg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jaricom.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcapimin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcapistd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcarith.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jccoefct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jccolor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcdctmgr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jchuff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcinit.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcmainct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcmarker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcmaster.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcomapi.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcparam.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcprepct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jcsample.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jctrans.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdapimin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdapistd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdarith.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdatadst.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdatasrc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdcoefct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdcolor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jddctmgr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdhuff.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdinput.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdmainct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdmarker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdmaster.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdmerge.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdpostct.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdsample.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jdtrans.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jerror.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jfdctflt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jfdctfst.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jfdctint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jidctflt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jidctfst.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jidctint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jmemmgr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jmemnobs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jquant1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jquant2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\$(Configuration)\jutils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,1 +1,1 @@
-C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\Release\LibPng_OBJLIB.lib
+C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\Release\LibPng_OBJLIB.lib

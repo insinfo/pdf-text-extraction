@@ -34,14 +34,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/MyCppProjects/pdf-text-extraction/build/LibAesgm/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/LibJpeg/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/ZLib/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/LibTiff/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/FreeType/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/LibPng/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/PDFWriter/cmake_install.cmake")
-  include("C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/LibAesgm/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/LibJpeg/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/ZLib/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/LibTiff/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/FreeType/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/LibPng/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/PDFWriter/cmake_install.cmake")
+  include("C:/MyCppProjects/pdf-text-extraction/windows/TextExtraction/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/MyCppProjects/pdf-text-extraction/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/MyCppProjects/pdf-text-extraction/windows/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

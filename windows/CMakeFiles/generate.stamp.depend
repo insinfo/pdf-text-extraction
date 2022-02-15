@@ -1,9 +1,9 @@
 # CMake generation dependency list for this directory.
 C:/MyCppProjects/pdf-text-extraction/CMakeLists.txt
-C:/MyCppProjects/pdf-text-extraction/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake
-C:/MyCppProjects/pdf-text-extraction/build/CMakeFiles/3.21.3/CMakeCXXCompiler.cmake
-C:/MyCppProjects/pdf-text-extraction/build/CMakeFiles/3.21.3/CMakeRCCompiler.cmake
-C:/MyCppProjects/pdf-text-extraction/build/CMakeFiles/3.21.3/CMakeSystem.cmake
+C:/MyCppProjects/pdf-text-extraction/windows/CMakeFiles/3.21.3/CMakeCCompiler.cmake
+C:/MyCppProjects/pdf-text-extraction/windows/CMakeFiles/3.21.3/CMakeCXXCompiler.cmake
+C:/MyCppProjects/pdf-text-extraction/windows/CMakeFiles/3.21.3/CMakeRCCompiler.cmake
+C:/MyCppProjects/pdf-text-extraction/windows/CMakeFiles/3.21.3/CMakeSystem.cmake
 C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in
 C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake

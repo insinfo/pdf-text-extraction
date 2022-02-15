@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B85E3A9F-8D30-30A5-9524-035FEBC5B67F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>TextExtraction</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TextExtraction.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TextExtraction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TextExtraction.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TextExtraction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">TextExtraction.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">TextExtraction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TextExtraction.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">TextExtraction</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fvisibility=hidden</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\PDFWriter\Debug\PDFWriter.lib;..\LibAesgm\Debug\LibAesgm.lib;..\FreeType\Debug\FreeType.lib;..\LibJpeg\Debug\LibJpeg.lib;..\ZLib\Debug\Zlib.lib;..\LibTiff\Debug\LibTiff.lib;..\LibPng\Debug\LibPng.lib;..\ZLib\Debug\Zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/Debug/TextExtraction.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/Debug/TextExtraction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fvisibility=hidden</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\PDFWriter\Release\PDFWriter.lib;..\LibAesgm\Release\LibAesgm.lib;..\FreeType\Release\FreeType.lib;..\LibJpeg\Release\LibJpeg.lib;..\ZLib\Release\Zlib.lib;..\LibTiff\Release\LibTiff.lib;..\LibPng\Release\LibPng.lib;..\ZLib\Release\Zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/Release/TextExtraction.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/Release/TextExtraction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fvisibility=hidden</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\PDFWriter\MinSizeRel\PDFWriter.lib;..\LibAesgm\MinSizeRel\LibAesgm.lib;..\FreeType\MinSizeRel\FreeType.lib;..\LibJpeg\MinSizeRel\LibJpeg.lib;..\ZLib\MinSizeRel\Zlib.lib;..\LibTiff\MinSizeRel\LibTiff.lib;..\LibPng\MinSizeRel\LibPng.lib;..\ZLib\MinSizeRel\Zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/MinSizeRel/TextExtraction.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/MinSizeRel/TextExtraction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -fPIC -fvisibility=hidden</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";TextExtraction_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\PDFWriter;C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\PDFWriter\RelWithDebInfo\PDFWriter.lib;..\LibAesgm\RelWithDebInfo\LibAesgm.lib;..\FreeType\RelWithDebInfo\FreeType.lib;..\LibJpeg\RelWithDebInfo\LibJpeg.lib;..\ZLib\RelWithDebInfo\Zlib.lib;..\LibTiff\RelWithDebInfo\LibTiff.lib;..\LibPng\RelWithDebInfo\LibPng.lib;..\ZLib\RelWithDebInfo\Zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/RelWithDebInfo/TextExtraction.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/RelWithDebInfo/TextExtraction.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/TextExtraction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/TextExtraction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/TextExtraction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/TextExtraction/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/TextExtraction/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\TextExtraction\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\bidi\BidiConversion.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\bidi\BidiConversion.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Encoding.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Encoding.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\FontDecoder.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\FontDecoder.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\StandardFontsDimensions.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\StandardFontsDimensions.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\font-translation\Translation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\IPDFInterpreterHandler.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\IPDFRecursiveInterpreterHandler.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFInterpreter.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFInterpreter.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\pdf-writer-enhancers\Bytes.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\pdf-writer-enhancers\Bytes.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFRecursiveInterpreter.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\interpreter\PDFRecursiveInterpreter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacement.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacementsCollector.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TextPlacementsCollector.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TPCollectionState.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\TPCollectionState.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\Transformations.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\lib\text-placements\Transformations.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\ErrorsAndWarnings.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\TextExtraction.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\TextExtraction.h" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\Lib.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\TextExtraction\Lib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZERO_CHECK.vcxproj">
+      <Project>{C0A73AB9-7E49-3100-BE48-D0A5E2336D4C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\FreeType\FreeType.vcxproj">
+      <Project>{B15612A3-B178-30FB-BBFE-730430FB2357}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm.vcxproj">
+      <Project>{6DEF5E3E-F3FF-35D8-B17B-BC1F129DDA38}</Project>
+      <Name>LibAesgm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg.vcxproj">
+      <Project>{CD1A9C1F-8735-3915-87F0-9E7BDD903BD2}</Project>
+      <Name>LibJpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng.vcxproj">
+      <Project>{3AFFADA0-9E13-3794-99DD-D7802685963A}</Project>
+      <Name>LibPng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff.vcxproj">
+      <Project>{770BF9C1-89D5-3570-B841-520C269DA183}</Project>
+      <Name>LibTiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter.vcxproj">
+      <Project>{593E61BF-EF4D-3FF7-91DC-7130BF88FD1E}</Project>
+      <Name>PDFWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib.vcxproj">
+      <Project>{6D47D83B-D958-3300-AC34-5C8CD3DC25E6}</Project>
+      <Name>Zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

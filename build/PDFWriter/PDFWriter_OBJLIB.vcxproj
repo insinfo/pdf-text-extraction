@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DC0DB86-C04A-380C-A9BD-03800A38A37E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PDFWriter_OBJLIB</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PDFWriter_OBJLIB.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PDFWriter_OBJLIB.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PDFWriter_OBJLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PDFWriter_OBJLIB.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PDFWriter_OBJLIB.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PDFWriter_OBJLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PDFWriter_OBJLIB.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PDFWriter_OBJLIB.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PDFWriter_OBJLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PDFWriter_OBJLIB.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PDFWriter_OBJLIB.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PDFWriter_OBJLIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\MyCppProjects\pdf-text-extraction\LibAesgm;C:\MyCppProjects\pdf-text-extraction\ZLib;C:\MyCppProjects\pdf-text-extraction\LibJpeg;C:\MyCppProjects\pdf-text-extraction\LibTiff;C:\MyCppProjects\pdf-text-extraction\FreeType\include;C:\MyCppProjects\pdf-text-extraction\LibPng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/PDFWriter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/PDFWriter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractContentContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractWrittenFont.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ANSIFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Ascii7Encoding.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ArrayOfInputStreamsStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CatalogInformation.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFANSIFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFDescendentFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFFileInput.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveReader.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Interpreter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Tracer.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Flattener.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Interpreter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Tracer.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CIDFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMYKRGBColor.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DecryptionHelper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DescendentFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictionaryContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionHelper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionOptions.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FontDescriptorWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeFaceWrapper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeOpenTypeWrapper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeType1Wrapper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeWrapper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicState.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicStateStack.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IndirectObjectsReferenceRegistry.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InfoDictionary.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAESDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAscii85DecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAsciiHexDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputBufferedStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputByteArrayStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputCharStringDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputDCTDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFile.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFileStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFlateDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLZWDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLimitedStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputRC4XcodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPFBDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorPNGOptimumStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorTIFFSubStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStreamSkipperStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringBufferStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageHandler.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageInformation.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageParser.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Log.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MD5Generator.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RC4.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypeFileInput.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypePrimitiveReader.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputAESEncodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputBufferedStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFile.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFileStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateDecodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateEncodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputRC4XcodeStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStreamTraits.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStringBufferStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageContentContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageTree.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ParsedPrimitiveHelper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArray.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFBoolean.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosArray.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosDict.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDate.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionary.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocEncoding.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentCopyingContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentHandler.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFFormXObject.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTiledPattern.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiledPatternContentContext.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFHexString.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFImageXObject.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFIndirectObjectReference.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFInteger.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFLiteralString.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFModifiedPage.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFName.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFNull.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObject.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectParser.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPage.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageInput.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionaryIterator.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArrayIterator.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageMergingHelper.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParser.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParserTokenizer.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParsingOptions.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFReal.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFRectangle.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStream.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStreamInput.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFSymbol.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTextString.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFUsedFont.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PFMFileReader.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PNGImageHandler.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PrimitiveObjectsWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PSBool.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountObject.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ResourcesDictionary.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SimpleStringTokenizer.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StandardEncoding.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateReader.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TIFFImageHandler.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiffUsageParameters.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Timer.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TimersRegistry.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Trace.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrailerInformation.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeANSIFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeDescendentFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypePrimitiveWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1Input.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToCFFEmbeddedFontWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToType2Converter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type2CharStringWriter.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UnicodeString.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UppercaseSequance.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UsedFontsRepository.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WinAnsiEncoding.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontCFF.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontTrueType.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XCryptionCommon.cpp" />
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XObjectContentContext.cpp" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractContentContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractWrittenFont.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AdapterIByteReaderWithPositionToIReadPositionProvider.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ANSIFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Ascii7Encoding.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ArrayOfInputStreamsStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\BetweenIncluding.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\BoxingBase.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CatalogInformation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFANSIFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFDescendentFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFFileInput.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveReader.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringDefinitions.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Interpreter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Tracer.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Flattener.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Interpreter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Tracer.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CIDFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMYKRGBColor.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ContainerIterator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DecryptionHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DescendentFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictionaryContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictOperand.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContextExtenderAdapter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EFontStretch.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EHummusImageType.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionOptions.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EPDFVersion.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EStatusCode.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ETokenSeparator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FontDescriptorWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeFaceWrapper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeOpenTypeWrapper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeType1Wrapper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeWrapper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FSType.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GlyphUnicodeMapping.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicState.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicStateStack.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IANSIFontWriterHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteReader.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteReaderWithPosition.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteWriterWithPosition.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IContentContextListener.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IDescendentFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IDocumentContextExtender.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFontDescriptorHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFormEndWritingTask.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ITiledPatternEndWritingTask.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFreeTypeFaceExtender.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IndirectObjectsReferenceRegistry.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InfoDictionary.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAESDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAscii85DecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAsciiHexDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputBufferedStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputByteArrayStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputCharStringDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputDCTDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFile.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFileStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFlateDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLZWDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLimitedStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputRC4XcodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPFBDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorPNGOptimumStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorTIFFSubStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStreamSkipperStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringBufferStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IOBasicTypes.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IObjectsContextExtender.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IPageEndWritingTask.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IPDFParserExtender.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IReadPositionProvider.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IResourceWritingTask.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IType1InterpreterImplementation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IType2InterpreterImplementation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IWrittenFont.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageHandler.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageInformation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageParser.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Log.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MapIterator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MD5Generator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RC4.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MyStringBuf.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsBasicTypes.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContextExtenderAdapter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypeFileInput.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypePrimitiveReader.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputAESEncodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputBufferedStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFile.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFileStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateDecodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateEncodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputRC4XcodeStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStreamTraits.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStringBufferStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageContentContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageTree.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ParsedPrimitiveHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArray.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFBoolean.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosArray.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosDict.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDate.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionary.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocEncoding.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentCopyingContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentHandler.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFEmbedParameterTypes.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFFormXObject.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTiledPattern.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiledPatternContentContext.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFHexString.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFImageXObject.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFIndirectObjectReference.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFInteger.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFLiteralString.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFModifiedPage.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFName.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFNull.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObject.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectCast.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectParser.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPage.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageInput.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionaryIterator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArrayIterator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageMergingHelper.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParser.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParserTokenizer.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParsingOptions.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFReal.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFRectangle.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStream.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStreamInput.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFSymbol.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTextString.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFUsedFont.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PFMFileReader.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PNGImageHandler.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PrimitiveObjectsWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ProcsetResourcesConstants.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PSBool.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountObject.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountPtr.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ResourcesDictionary.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SafeBufferMacrosDefs.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SimpleStringTokenizer.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Singleton.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SingleValueContainerIterator.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StandardEncoding.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateReader.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TIFFImageHandler.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiffUsageParameters.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Timer.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TimersRegistry.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Trace.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrailerInformation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeANSIFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeDescendentFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypePrimitiveWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1Input.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToCFFEmbeddedFontWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToType2Converter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type2CharStringWriter.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UnicodeString.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UppercaseSequance.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UsedFontsRepository.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WinAnsiEncoding.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontCFF.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontRepresentation.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontTrueType.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XCryptionCommon.h" />
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XObjectContentContext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZERO_CHECK.vcxproj">
+      <Project>{C0A73AB9-7E49-3100-BE48-D0A5E2336D4C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{770BF9C1-89D5-3570-B841-520C269DA183}</ProjectGuid>
+    <ProjectGuid>{2626945B-236F-3869-AC10-8BFABD43B8C0}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,19 +59,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibTiff.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibTiff</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibTiff.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibTiff</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LibTiff.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LibTiff</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LibTiff.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LibTiff</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -212,7 +212,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibTiff/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibTiff/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibTiff/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibTiff/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibTiff/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibTiff/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibTiff/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibTiff/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibTiff/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/LibTiff/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/LibTiff/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/LibTiff/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,65 +260,65 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\LibTiff\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_aux.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_close.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_codec.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_color.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_compress.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dir.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirinfo.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirread.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirwrite.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dumpmode.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_error.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_extension.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3sm.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_flush.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_getimage.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jbig.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jpeg.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_luv.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_lzw.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_next.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_ojpeg.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_open.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_packbits.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_pixarlog.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_predict.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_print.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_read.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_stream.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_strip.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_swab.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_thunder.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_tile.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_unix.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_version.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_warning.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_write.obj" />
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_zip.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_aux.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_close.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_codec.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_color.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_compress.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dir.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirinfo.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirread.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirwrite.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dumpmode.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_error.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_extension.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3sm.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_flush.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_getimage.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jbig.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jpeg.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_luv.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_lzw.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_next.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_ojpeg.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_open.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_packbits.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_pixarlog.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_predict.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_print.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_read.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_stream.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_strip.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_swab.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_thunder.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_tile.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_unix.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_version.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_warning.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_write.obj" />
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_zip.obj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZERO_CHECK.vcxproj">
-      <Project>{C0A73AB9-7E49-3100-BE48-D0A5E2336D4C}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\ZERO_CHECK.vcxproj">
+      <Project>{173F2E63-0B31-33DD-9F13-844CA1C3456F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.vcxproj">
-      <Project>{C7CEC9C4-B897-3AEB-834E-A2A5DD71B68A}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.vcxproj">
+      <Project>{EDF740F7-AD5B-3EF0-BD0F-234A5F1144D4}</Project>
       <Name>LibTiff_OBJLIB</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib.vcxproj">
-      <Project>{6D47D83B-D958-3300-AC34-5C8CD3DC25E6}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib.vcxproj">
+      <Project>{D01672FB-BA86-377A-A0DD-B39D76583157}</Project>
       <Name>Zlib</Name>
     </ProjectReference>
   </ItemGroup>

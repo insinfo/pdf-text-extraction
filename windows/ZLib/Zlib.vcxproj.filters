@@ -4,55 +4,55 @@
     <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\ZLib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\adler32.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\adler32.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\compress.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\compress.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\crc32.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\crc32.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\deflate.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\deflate.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzclose.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzclose.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzlib.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzlib.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzread.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzread.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzwrite.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\gzwrite.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\infback.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\infback.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inffast.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inffast.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inflate.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inflate.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inftrees.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\inftrees.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\trees.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\trees.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\uncompr.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\uncompr.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\$(Configuration)\zutil.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\$(Configuration)\zutil.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+      <UniqueIdentifier>{ACCA9CF4-1745-3F05-9438-1990AFF6AC2C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

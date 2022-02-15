@@ -5,8 +5,8 @@ set(LIBAESGM_INCLUDE_DIRS ${LibAesgm_SOURCE_DIR} PARENT_SCOPE)
 set(LIBAESGM_LDFLAGS LibAesgm PARENT_SCOPE)
 
 #isaque 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fvisibility=hidden")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fvisibility=hidden")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden")
 
 add_library (LibAesgm_OBJLIB OBJECT
 #sources

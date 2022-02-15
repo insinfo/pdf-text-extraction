@@ -29,6 +29,9 @@
 
 extern "C"
 {
+    EXPORTED char* extractTextAsXML(const char* inFilePath, int startPage, int endPage, int (*callback)(const char*));
     EXPORTED char* extractText(const char* inFilePath, int startPage, int endPage, int (*callback)(const char*));
+    EXPORTED int getPagesCount(const char* inFilePath, int (*callback)(const char*));
+    
 }
 

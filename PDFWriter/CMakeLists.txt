@@ -31,12 +31,13 @@ if(NOT PDFHUMMUS_NO_PNG)
 else(NOT PDFHUMMUS_NO_PNG)
 	add_definitions(-DPDFHUMMUS_NO_PNG=1)
 endif(NOT PDFHUMMUS_NO_PNG)
+
 #isaque alterou aqui
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fvisibility=hidden")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fvisibility=hidden")
 #export CFLAGS="-fPIC -fvisibility=hidden" export CXXFLAGS="-fPIC -fvisibility=hidden"
-#add_library (PDFWriter_OBJLIB OBJECT
-add_library (PDFWriter_OBJLIB STATIC
+
+add_library (PDFWriter_OBJLIB OBJECT
 #sources
 AbstractContentContext.cpp
 AbstractWrittenFont.cpp

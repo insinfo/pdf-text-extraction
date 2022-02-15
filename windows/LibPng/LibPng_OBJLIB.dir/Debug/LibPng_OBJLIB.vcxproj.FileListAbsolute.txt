@@ -1,1 +1,0 @@
-C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\Debug\LibPng_OBJLIB.lib

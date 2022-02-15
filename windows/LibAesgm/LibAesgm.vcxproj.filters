@@ -4,25 +4,25 @@
     <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibAesgm\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aescrypt.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aescrypt.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aeskey.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aeskey.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aes_modes.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aes_modes.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aes_ni.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aes_ni.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aestab.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibAesgm\LibAesgm_OBJLIB.dir\$(Configuration)\aestab.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+      <UniqueIdentifier>{ACCA9CF4-1745-3F05-9438-1990AFF6AC2C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_aux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_close.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dirinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dirread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dirwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dumpmode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_fax3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_fax3sm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_flush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_getimage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_jbig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_jpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_luv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_lzw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_next.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_ojpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_packbits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_pixarlog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_predict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_stream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_strip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_swab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_thunder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_tile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_unix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_warning.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_zip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\t4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiffconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiffio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiffio.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiffiop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tiffvers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_fax3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\tif_predict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\uvcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DAD5F5C7-EAE2-37B9-B172-D28F9915E0E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5051BF3-8C0C-3D9A-B420-17F63B76849F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

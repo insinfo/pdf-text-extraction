@@ -1,9 +1,11 @@
 project(TextExtraction VERSION 1.0.1 DESCRIPTION "TextExtraction description")
 cmake_minimum_required (VERSION 3.10)
+
 #isaque alterou aqui
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fvisibility=hidden")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -fvisibility=hidden")
 #export CFLAGS="-fPIC -fvisibility=hidden" export CXXFLAGS="-fPIC -fvisibility=hidden"
+
 #add_executable(TextExtraction 
 # Create shared library
 add_library(TextExtraction SHARED

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\build\CMakeFiles\6e403653fa713ba5df7b5f3bbfc01826\INSTALL_force.rule">
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\windows\CMakeFiles\cdbdd7763ee635cc49c0e5c6a7483459\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{ED3AD9C3-DA24-3F81-A722-689F33FBC7C5}</UniqueIdentifier>
+      <UniqueIdentifier>{88A8162C-7F58-3B5B-8835-3BDA12D2DFFA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

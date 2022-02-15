@@ -4,124 +4,124 @@
     <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibTiff\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_aux.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_aux.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_close.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_close.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_codec.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_codec.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_color.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_color.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_compress.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_compress.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dir.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dir.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirinfo.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirinfo.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirread.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirread.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirwrite.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dirwrite.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dumpmode.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_dumpmode.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_error.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_error.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_extension.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_extension.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3sm.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_fax3sm.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_flush.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_flush.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_getimage.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_getimage.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jbig.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jbig.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jpeg.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_jpeg.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_luv.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_luv.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_lzw.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_lzw.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_next.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_next.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_ojpeg.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_ojpeg.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_open.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_open.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_packbits.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_packbits.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_pixarlog.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_pixarlog.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_predict.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_predict.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_print.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_print.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_read.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_read.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_stream.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_stream.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_strip.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_strip.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_swab.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_swab.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_thunder.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_thunder.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_tile.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_tile.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_unix.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_unix.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_version.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_version.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_warning.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_warning.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_write.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_write.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_zip.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibTiff\LibTiff_OBJLIB.dir\$(Configuration)\tif_zip.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+      <UniqueIdentifier>{ACCA9CF4-1745-3F05-9438-1990AFF6AC2C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

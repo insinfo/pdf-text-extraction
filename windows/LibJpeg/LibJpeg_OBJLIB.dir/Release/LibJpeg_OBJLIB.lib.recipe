@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\MyCppProjects\pdf-text-extraction\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\MyCppProjects\pdf-text-extraction\windows\x64\release\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

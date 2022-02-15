@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{182640ED-DE68-3DE4-996E-CC58628A6DBF}</ProjectGuid>
+    <ProjectGuid>{1EE33D67-4050-3C31-BBB8-3A3F90512FBA}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -109,7 +109,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/FreeType/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/FreeType/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/FreeType/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -118,11 +118,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\build\FreeType\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\MyCppProjects\pdf-text-extraction\windows\FreeType\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/FreeType/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/FreeType/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/FreeType/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,11 +131,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\build\FreeType\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\MyCppProjects\pdf-text-extraction\windows\FreeType\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/FreeType/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/FreeType/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/FreeType/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -144,11 +144,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\build\FreeType\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\MyCppProjects\pdf-text-extraction\windows\FreeType\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/MyCppProjects/pdf-text-extraction/FreeType/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/build --check-stamp-file C:/MyCppProjects/pdf-text-extraction/build/FreeType/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyCppProjects/pdf-text-extraction -BC:/MyCppProjects/pdf-text-extraction/windows --check-stamp-file C:/MyCppProjects/pdf-text-extraction/windows/FreeType/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,25 +157,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\build\FreeType\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\MyCppProjects\pdf-text-extraction\windows\FreeType\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\ZERO_CHECK.vcxproj">
-      <Project>{C0A73AB9-7E49-3100-BE48-D0A5E2336D4C}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\ZERO_CHECK.vcxproj">
+      <Project>{173F2E63-0B31-33DD-9F13-844CA1C3456F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\FreeType\FreeType.vcxproj">
-      <Project>{B15612A3-B178-30FB-BBFE-730430FB2357}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\FreeType\FreeType.vcxproj">
+      <Project>{E4F8C35A-12A4-3681-AB58-7C59F9C1A747}</Project>
       <Name>FreeType</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\build\FreeType\FreeType_OBJLIB.vcxproj">
-      <Project>{066C9F23-A442-3F7F-A8F6-F44EA60BA1A9}</Project>
+    <ProjectReference Include="C:\MyCppProjects\pdf-text-extraction\windows\FreeType\FreeType_OBJLIB.vcxproj">
+      <Project>{69E3E435-ADCF-347A-9415-AE3C71C160AC}</Project>
       <Name>FreeType_OBJLIB</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

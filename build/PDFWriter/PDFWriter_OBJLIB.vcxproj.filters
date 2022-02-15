@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractWrittenFont.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Ascii7Encoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ArrayOfInputStreamsStream.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CatalogInformation.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFDescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFEmbeddedFontWriter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFFileInput.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveReader.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveWriter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Interpreter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Tracer.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Flattener.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Interpreter.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Tracer.cpp">
+      <Filter>Text\CFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CIDFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMYKRGBColor.cpp">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DecryptionHelper.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictionaryContext.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionHelper.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionOptions.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FontDescriptorWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeFaceWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeOpenTypeWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeType1Wrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeWrapper.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicState.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicStateStack.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IndirectObjectsReferenceRegistry.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InfoDictionary.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAESDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAscii85DecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAsciiHexDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputBufferedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputByteArrayStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputCharStringDecodeStream.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputDCTDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFile.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFileStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFlateDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLZWDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLimitedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputRC4XcodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPFBDecodeStream.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorPNGOptimumStream.cpp">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorTIFFSubStream.cpp">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStreamSkipperStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringBufferStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageHandler.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageInformation.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageParser.cpp">
+      <Filter>Images\JPG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Log.cpp">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MD5Generator.cpp">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RC4.cpp">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContext.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypeFileInput.cpp">
+      <Filter>Text\OpenType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypePrimitiveReader.cpp">
+      <Filter>Text\OpenType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputAESEncodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputBufferedStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFile.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFileStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateDecodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateEncodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputRC4XcodeStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStreamTraits.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStringBufferStream.cpp">
+      <Filter>Infrastructure\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageTree.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ParsedPrimitiveHelper.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArray.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFBoolean.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosArray.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosDict.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDate.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionary.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentCopyingContext.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentHandler.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFFormXObject.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTiledPattern.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiledPatternContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFHexString.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFImageXObject.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFIndirectObjectReference.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFInteger.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFLiteralString.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFModifiedPage.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFName.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFNull.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObject.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectParser.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPage.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageInput.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionaryIterator.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArrayIterator.cpp">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageMergingHelper.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParser.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParserTokenizer.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParsingOptions.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFReal.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFRectangle.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStream.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStreamInput.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFSymbol.cpp">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTextString.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFUsedFont.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFWriter.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PFMFileReader.cpp">
+      <Filter>Text\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PNGImageHandler.cpp">
+      <Filter>Images\PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PrimitiveObjectsWriter.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PSBool.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountObject.cpp">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ResourcesDictionary.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SimpleStringTokenizer.cpp">
+      <Filter>PDF Embedding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StandardEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateReader.cpp">
+      <Filter>State Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateWriter.cpp">
+      <Filter>State Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TIFFImageHandler.cpp">
+      <Filter>Images\TIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiffUsageParameters.cpp">
+      <Filter>Images\TIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Timer.cpp">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TimersRegistry.cpp">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Trace.cpp">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrailerInformation.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeANSIFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeDescendentFontWriter.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeEmbeddedFontWriter.cpp">
+      <Filter>Text\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypePrimitiveWriter.cpp">
+      <Filter>Text\TrueType</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1Input.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToCFFEmbeddedFontWriter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToType2Converter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type2CharStringWriter.cpp">
+      <Filter>Text\Type1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UnicodeString.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UppercaseSequance.cpp">
+      <Filter>Objects Context Level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UsedFontsRepository.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WinAnsiEncoding.cpp">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontCFF.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontTrueType.cpp">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XCryptionCommon.cpp">
+      <Filter>XCryption</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XObjectContentContext.cpp">
+      <Filter>Document Context Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AbstractWrittenFont.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\AdapterIByteReaderWithPositionToIReadPositionProvider.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Ascii7Encoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ArrayOfInputStreamsStream.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\BetweenIncluding.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\BoxingBase.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CatalogInformation.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFEmbeddedFontWriter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFFileInput.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveReader.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CFFPrimitiveWriter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringDefinitions.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Interpreter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType1Tracer.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Flattener.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Interpreter.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CharStringType2Tracer.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CIDFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMYKRGBColor.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ContainerIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DecryptionHelper.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictionaryContext.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DictOperand.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\DocumentContextExtenderAdapter.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EFontStretch.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EHummusImageType.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionHelper.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EncryptionOptions.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EPDFVersion.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\EStatusCode.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ETokenSeparator.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FontDescriptorWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeFaceWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeOpenTypeWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeType1Wrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FreeTypeWrapper.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\FSType.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GlyphUnicodeMapping.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicState.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\GraphicStateStack.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IANSIFontWriterHelper.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteReader.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteReaderWithPosition.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteWriter.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IByteWriterWithPosition.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IContentContextListener.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IDocumentContextExtender.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFontDescriptorHelper.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFormEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ITiledPatternEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IFreeTypeFaceExtender.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IndirectObjectsReferenceRegistry.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InfoDictionary.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAESDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAscii85DecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputAsciiHexDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputBufferedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputByteArrayStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputCharStringDecodeStream.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputDCTDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFile.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFileStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputFlateDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLZWDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputLimitedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputRC4XcodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPFBDecodeStream.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorPNGOptimumStream.h">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputPredictorTIFFSubStream.h">
+      <Filter>PDF Embedding\PredictionFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStreamSkipperStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringBufferStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\InputStringStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IOBasicTypes.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IObjectsContextExtender.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IPageEndWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IPDFParserExtender.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IReadPositionProvider.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IResourceWritingTask.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IType1InterpreterImplementation.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IType2InterpreterImplementation.h">
+      <Filter>Text\CFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\IWrittenFont.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageHandler.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageInformation.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\JPEGImageParser.h">
+      <Filter>Images\JPG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Log.h">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MapIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MD5Generator.h">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RC4.h">
+      <Filter>Infrastructure\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\MyStringBuf.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsBasicTypes.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContext.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ObjectsContextExtenderAdapter.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypeFileInput.h">
+      <Filter>Text\OpenType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OpenTypePrimitiveReader.h">
+      <Filter>Text\OpenType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputAESEncodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputBufferedStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFile.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFileStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateDecodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputFlateEncodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputRC4XcodeStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStreamTraits.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\OutputStringBufferStream.h">
+      <Filter>Infrastructure\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PageTree.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ParsedPrimitiveHelper.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArray.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFBoolean.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosArray.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFCosDict.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDate.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionary.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentCopyingContext.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDocumentHandler.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFEmbedParameterTypes.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFFormXObject.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTiledPattern.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiledPatternContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFHexString.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFImageXObject.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFIndirectObjectReference.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFInteger.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFLiteralString.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFModifiedPage.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFName.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFNull.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObject.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectCast.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFObjectParser.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPage.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageInput.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFDictionaryIterator.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFArrayIterator.h">
+      <Filter>PDF Embedding\Parsed objects Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFPageMergingHelper.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParser.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParserTokenizer.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFParsingOptions.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFReal.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFRectangle.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStream.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFStreamInput.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFSymbol.h">
+      <Filter>PDF Embedding\Parsed Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFTextString.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFUsedFont.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PDFWriter.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PFMFileReader.h">
+      <Filter>Text\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PNGImageHandler.h">
+      <Filter>Images\PNG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PrimitiveObjectsWriter.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ProcsetResourcesConstants.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\PSBool.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountObject.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\RefCountPtr.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\ResourcesDictionary.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SafeBufferMacrosDefs.h">
+      <Filter>Infrastructure\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SimpleStringTokenizer.h">
+      <Filter>PDF Embedding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Singleton.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\SingleValueContainerIterator.h">
+      <Filter>Infrastructure\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StandardEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateReader.h">
+      <Filter>State Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\StateWriter.h">
+      <Filter>State Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TIFFImageHandler.h">
+      <Filter>Images\TIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TiffUsageParameters.h">
+      <Filter>Images\TIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Timer.h">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TimersRegistry.h">
+      <Filter>Infrastructure\Timers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Trace.h">
+      <Filter>Infrastructure\Trace and Log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrailerInformation.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeANSIFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeDescendentFontWriter.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypeEmbeddedFontWriter.h">
+      <Filter>Text\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\TrueTypePrimitiveWriter.h">
+      <Filter>Text\TrueType</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1Input.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToCFFEmbeddedFontWriter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type1ToType2Converter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\Type2CharStringWriter.h">
+      <Filter>Text\Type1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UnicodeString.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UppercaseSequance.h">
+      <Filter>Objects Context Level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\UsedFontsRepository.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WinAnsiEncoding.h">
+      <Filter>Infrastructure\Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontCFF.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontRepresentation.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\WrittenFontTrueType.h">
+      <Filter>Text\PDF Font Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XCryptionCommon.h">
+      <Filter>XCryption</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\XObjectContentContext.h">
+      <Filter>Document Context Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\PDFWriter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Document Context Level">
+      <UniqueIdentifier>{3156F8BB-9631-3F75-9A63-FCB1849C4136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{1943BCB7-72B4-339F-B2F5-0E4EA5EC24FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\JPG">
+      <UniqueIdentifier>{6FF77C07-BC04-3BB2-88D7-BF2094E9EBF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\PNG">
+      <UniqueIdentifier>{7C8DFB4A-B708-343A-9FBF-763F2CFB632D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\TIFF">
+      <UniqueIdentifier>{F12181EE-94FC-3F0B-9525-ED4095146910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{CC50EBB7-4F6E-3E60-B88D-6E99393EA87C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Basics">
+      <UniqueIdentifier>{0F2D7C3C-840A-397E-A48A-3C36F876635B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Encoding">
+      <UniqueIdentifier>{F2FE1C02-4EEA-3B9A-8585-A51B911F0A37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Encryption">
+      <UniqueIdentifier>{F7FC1071-65CE-35D4-835F-44D1C29DF387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\IO">
+      <UniqueIdentifier>{DBCCEFA4-3D4B-34BA-BFB9-EDB1D42C5FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Patterns">
+      <UniqueIdentifier>{78A245DA-A980-311A-A051-DB1CA5797E85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Timers">
+      <UniqueIdentifier>{24247C36-B7DA-38BA-B1D9-EDAE8B3FD836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure\Trace and Log">
+      <UniqueIdentifier>{A01772B5-54DB-3A67-B86D-D38FB40E04CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6E0EDDE7-C604-3ED6-ADC7-CB6015E883AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects Context Level">
+      <UniqueIdentifier>{D69CAFC6-2E46-345D-BB15-D00D3671133D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding">
+      <UniqueIdentifier>{FF09A532-4EBB-3A86-B411-8B71593636B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\Parsed Objects">
+      <UniqueIdentifier>{78B43066-A5A7-3B2A-9257-634DCE207B1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\Parsed objects Helpers">
+      <UniqueIdentifier>{9790F741-16B4-3DC4-961E-EB44B974A677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF Embedding\PredictionFilters">
+      <UniqueIdentifier>{F2A69403-FD5F-3FAE-B2D6-D42E817AC0EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Serialization">
+      <UniqueIdentifier>{21884D4D-E38E-3F11-AB60-33D767511F3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{43BBD1F4-66FA-3400-B5D1-B1A3E2BE643F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\CFF">
+      <UniqueIdentifier>{2771297F-D761-364F-894C-7D351A6CB6CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\FreeType">
+      <UniqueIdentifier>{2C11EBE8-7933-30E8-938C-766757149B7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\OpenType">
+      <UniqueIdentifier>{4C82784F-9AC6-30AE-A18A-1453FE1F2F13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\PDF Font Definitions">
+      <UniqueIdentifier>{B14F8D24-D17C-3108-B2D2-C15A00F3C9FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\TrueType">
+      <UniqueIdentifier>{41013EE0-4E23-339D-BAE1-4083F811C948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text\Type1">
+      <UniqueIdentifier>{E00FE859-CBBB-3C89-B4BB-57165FDAF68C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XCryption">
+      <UniqueIdentifier>{3A72F7F1-4DB3-39FB-9E21-71312C5C9F3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

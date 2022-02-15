@@ -4,55 +4,55 @@
     <CustomBuild Include="C:\MyCppProjects\pdf-text-extraction\LibPng\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\png.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\png.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngerror.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngerror.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngget.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngget.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngmem.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngmem.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngpread.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngpread.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngread.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngread.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrio.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrio.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrtran.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrtran.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrutil.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngrutil.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngset.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngset.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngtrans.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngtrans.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwio.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwio.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwrite.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwrite.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwtran.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwtran.obj">
       <Filter>Object Libraries</Filter>
     </Object>
-    <Object Include="C:\MyCppProjects\pdf-text-extraction\build\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwutil.obj">
+    <Object Include="C:\MyCppProjects\pdf-text-extraction\windows\LibPng\LibPng_OBJLIB.dir\$(Configuration)\pngwutil.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{0501BD38-2A4A-3183-BA95-05C79B5422F6}</UniqueIdentifier>
+      <UniqueIdentifier>{ACCA9CF4-1745-3F05-9438-1990AFF6AC2C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

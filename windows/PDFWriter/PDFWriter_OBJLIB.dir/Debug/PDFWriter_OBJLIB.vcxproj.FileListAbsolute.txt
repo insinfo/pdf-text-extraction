@@ -1,1 +1,0 @@
-C:\MyCppProjects\pdf-text-extraction\build\PDFWriter\PDFWriter_OBJLIB.dir\Debug\PDFWriter_OBJLIB.lib

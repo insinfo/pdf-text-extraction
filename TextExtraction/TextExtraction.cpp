@@ -282,16 +282,49 @@ EStatusCode TextExtraction::ExtractText(const std::string& inFilePath, long inSt
     return status;
 }
 
-int TextExtraction::GetPagesCount(const std::string& inFilePath) {
+int TextExtraction::GetPagesCount(const std::string& inFilePath, int (*callback)(const char*)) {
+  
     EStatusCode status = eSuccess;
-    auto re = Parser(inFilePath);
-    status = std::get<0>(re);
-    PDFParser* parser = std::get<1>(re);
-    if (status != eSuccess) {
-        cerr << "Error: " << LatestError.description.c_str() << endl;
+    InputFile sourceFile;
+
+    LatestWarnings.clear();
+    LatestError.code = eErrorNone;
+    LatestError.description = scEmpty;
+
+    textPlacementsForPages.clear();
+    refrencedFontDecoderCache.clear();
+    embeddedFontDecoderCache.clear();
+    textsForPages.clear();
+    PDFParser parser;
+    do {
+        status = sourceFile.OpenFile(inFilePath);
+        if (status != eSuccess) {
+            LatestError.code = eErrorFileNotReadable;
+            LatestError.description = string("Cannot read template file ") + inFilePath;
+            if (callback != NULL) {
+                callback(LatestError.description.c_str());
+            }
+            cerr << "Error: " << LatestError.description.c_str() << endl;
+            break;
+        }
+
+        status = parser.StartPDFParsing(sourceFile.GetInputStream());
+        if (status != eSuccess)
+        {
+            LatestError.code = eErrorInternalPDFWriter;
+            LatestError.description = string("Failed to parse template file");
+            if (callback != NULL) {
+                callback(LatestError.description.c_str());
+            }
+            cerr << "Error: " << LatestError.description.c_str() << endl;
+            break;
+        }
+    } while (false);
+
+    if (status != eSuccess) {      
         return -1;
     }
-    return  parser->GetPagesCount();
+    return  parser.GetPagesCount();
     // println(pages);
     // cerr << "Error: " << LatestError.description.c_str() << endl;
 }
@@ -410,7 +443,7 @@ bool AreSameLine(const ResultTextCommand& a, const ResultTextCommand& b) {
     }
 }
 
-std::string TextExtraction::GetResultsAsText(int bidiFlag) {
+std::stringstream TextExtraction::GetResultsAsText(int bidiFlag) {
     stringstream result;
     BidiConversion bidi;
     ResultTextCommandListList::iterator itPages = textsForPages.begin();
@@ -454,7 +487,7 @@ std::string TextExtraction::GetResultsAsText(int bidiFlag) {
         }     
     }
 
-    return result.str();
+    return result;
 }
 
 std::stringstream TextExtraction::GetResultsAsXML(int bidiFlag) {

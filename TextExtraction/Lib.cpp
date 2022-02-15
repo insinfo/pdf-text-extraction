@@ -21,10 +21,9 @@ using namespace PDFHummus;
 /// <param name="startPage"> set 0 </param>
 /// <param name="endPage">set -1</param>
 /// <returns></returns>
-char* extractText(const char* inFilePath, int startPage, int endPage, int (*callback)(const char*))
+char* extractTextAsXML(const char* inFilePath, int startPage, int endPage, int (*callback)(const char*))
 {
-	string filePath = inFilePath;
-	bool writeToOutputFile = false;
+	string filePath = inFilePath;	
 	long bidiFlag = -1;
 	stringstream result;
 	TextExtraction textExtraction;
@@ -56,5 +55,51 @@ char* extractText(const char* inFilePath, int startPage, int endPage, int (*call
 	}
 	char* re = new char[2 + 1];
 	strcpy(re, "-1");	
+	return re;
+}
+
+char* extractText(const char* inFilePath, int startPage, int endPage, int (*callback)(const char*))
+{
+	string filePath = inFilePath;	
+	long bidiFlag = -1;
+	stringstream result;
+	TextExtraction textExtraction;
+	EStatusCode status;
+
+	status = textExtraction.ExtractText(filePath, startPage, endPage);
+
+	if (status != eSuccess) {
+		cerr << "Error: " << textExtraction.LatestError.description.c_str() << endl;
+		if (callback != NULL) {
+			callback(textExtraction.LatestError.description.c_str());
+		}
+	}
+	TextExtractionWarningList::iterator it = textExtraction.LatestWarnings.begin();
+	for (; it != textExtraction.LatestWarnings.end(); ++it) {
+		cerr << "Warning: " << it->description.c_str() << endl;
+		if (callback != NULL) {
+			callback(it->description.c_str());
+		}
+	}
+	if (status == eSuccess) {
+		result = textExtraction.GetResultsAsText(bidiFlag);
+
+		std::string str = result.str();
+		char* cstr = new char[str.length() + 1];
+		strcpy(cstr, str.c_str());
+
+		return cstr;
+	}
+	char* re = new char[2 + 1];
+	strcpy(re, "-1");
+	return re;
+}
+
+int getPagesCount(const char* inFilePath,  int (*callback)(const char*))
+{
+	string filePath = inFilePath;
+	TextExtraction textExtraction;
+	int re = -1;	
+	re = textExtraction.GetPagesCount(filePath, callback);	
 	return re;
 }

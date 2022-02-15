@@ -1,1 +1,1 @@
-C:\MyCppProjects\pdf-text-extraction\build\LibJpeg\LibJpeg_OBJLIB.dir\Release\LibJpeg_OBJLIB.lib
+C:\MyCppProjects\pdf-text-extraction\windows\LibJpeg\LibJpeg_OBJLIB.dir\Release\LibJpeg_OBJLIB.lib

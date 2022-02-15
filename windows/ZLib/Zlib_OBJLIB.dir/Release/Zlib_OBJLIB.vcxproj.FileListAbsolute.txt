@@ -1,1 +1,1 @@
-C:\MyCppProjects\pdf-text-extraction\build\ZLib\Zlib_OBJLIB.dir\Release\Zlib_OBJLIB.lib
+C:\MyCppProjects\pdf-text-extraction\windows\ZLib\Zlib_OBJLIB.dir\Release\Zlib_OBJLIB.lib

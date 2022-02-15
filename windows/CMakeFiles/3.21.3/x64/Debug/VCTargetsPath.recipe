@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\MyCppProjects\pdf-text-extraction\build\CMakeFiles\3.21.3\x64\Debug\VCTargetsPath</FullPath>
+      <FullPath>C:\MyCppProjects\pdf-text-extraction\windows\CMakeFiles\3.21.3\x64\Debug\VCTargetsPath</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

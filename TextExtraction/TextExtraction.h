@@ -46,7 +46,7 @@ class TextExtraction {
 
         PDFHummus::EStatusCode ExtractText(const std::string& inFilePath, long inStartPage=0, long inEndPage=-1);
 
-        int GetPagesCount(const std::string& inFilePath);
+        int GetPagesCount(const std::string& inFilePath, int (*callback)(const char*));
 
         std::tuple<PDFHummus::EStatusCode, PDFParser*> Parser(const std::string& inFilePath);
 
@@ -62,7 +62,7 @@ class TextExtraction {
             const std::string& inTargetOutputFilePath
         );
 
-        std::string GetResultsAsText(int bidiFlag);
+        std::stringstream GetResultsAsText(int bidiFlag);
         std::stringstream GetResultsAsXML(int bidiFlag);
 
     private:

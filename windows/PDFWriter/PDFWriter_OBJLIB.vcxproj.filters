@@ -1014,88 +1014,88 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Document Context Level">
-      <UniqueIdentifier>{3156F8BB-9631-3F75-9A63-FCB1849C4136}</UniqueIdentifier>
+      <UniqueIdentifier>{7B57DA59-AA6C-3E4D-9EFA-2E5FFC349B84}</UniqueIdentifier>
     </Filter>
     <Filter Include="Images">
-      <UniqueIdentifier>{1943BCB7-72B4-339F-B2F5-0E4EA5EC24FF}</UniqueIdentifier>
+      <UniqueIdentifier>{E3EDE02B-F663-3593-A5AC-0D8FF7508B3F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Images\JPG">
-      <UniqueIdentifier>{6FF77C07-BC04-3BB2-88D7-BF2094E9EBF3}</UniqueIdentifier>
+      <UniqueIdentifier>{CE9FA96E-6156-35DD-8F1C-ED04D73CBA17}</UniqueIdentifier>
     </Filter>
     <Filter Include="Images\PNG">
-      <UniqueIdentifier>{7C8DFB4A-B708-343A-9FBF-763F2CFB632D}</UniqueIdentifier>
+      <UniqueIdentifier>{C4CAA5CE-BA8F-3EE5-BFBE-D566671268D8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Images\TIFF">
-      <UniqueIdentifier>{F12181EE-94FC-3F0B-9525-ED4095146910}</UniqueIdentifier>
+      <UniqueIdentifier>{2009DADF-5C4E-388D-95E3-5390C7DF78FF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure">
-      <UniqueIdentifier>{CC50EBB7-4F6E-3E60-B88D-6E99393EA87C}</UniqueIdentifier>
+      <UniqueIdentifier>{94B01606-16A0-34C2-9968-D83C61C5B720}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Basics">
-      <UniqueIdentifier>{0F2D7C3C-840A-397E-A48A-3C36F876635B}</UniqueIdentifier>
+      <UniqueIdentifier>{FFD28AE4-3378-32C0-87D7-C2EB57F50B05}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Encoding">
-      <UniqueIdentifier>{F2FE1C02-4EEA-3B9A-8585-A51B911F0A37}</UniqueIdentifier>
+      <UniqueIdentifier>{61FE4C76-6869-3AD7-97A4-34078917618B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Encryption">
-      <UniqueIdentifier>{F7FC1071-65CE-35D4-835F-44D1C29DF387}</UniqueIdentifier>
+      <UniqueIdentifier>{88DB9E22-C76A-3DD9-B0F2-E628F3A043AA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\IO">
-      <UniqueIdentifier>{DBCCEFA4-3D4B-34BA-BFB9-EDB1D42C5FD4}</UniqueIdentifier>
+      <UniqueIdentifier>{00621AE1-58C5-3834-9A23-DF2A94B58984}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Patterns">
-      <UniqueIdentifier>{78A245DA-A980-311A-A051-DB1CA5797E85}</UniqueIdentifier>
+      <UniqueIdentifier>{473E9CD5-94B2-367D-BC10-523BFDCA4EE3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Timers">
-      <UniqueIdentifier>{24247C36-B7DA-38BA-B1D9-EDAE8B3FD836}</UniqueIdentifier>
+      <UniqueIdentifier>{3053702B-601B-37FA-BBC9-77D3A358A31A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Infrastructure\Trace and Log">
-      <UniqueIdentifier>{A01772B5-54DB-3A67-B86D-D38FB40E04CD}</UniqueIdentifier>
+      <UniqueIdentifier>{F36228EE-E81D-3718-A681-E8E51CC5CA4A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Main">
-      <UniqueIdentifier>{6E0EDDE7-C604-3ED6-ADC7-CB6015E883AF}</UniqueIdentifier>
+      <UniqueIdentifier>{EBC78FE2-FD5D-3F79-803D-1DF3608425F3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Objects Context Level">
-      <UniqueIdentifier>{D69CAFC6-2E46-345D-BB15-D00D3671133D}</UniqueIdentifier>
+      <UniqueIdentifier>{81B10AB4-8F5B-3EF9-836D-9A9B9F1FC25E}</UniqueIdentifier>
     </Filter>
     <Filter Include="PDF Embedding">
-      <UniqueIdentifier>{FF09A532-4EBB-3A86-B411-8B71593636B3}</UniqueIdentifier>
+      <UniqueIdentifier>{A645BA9D-3A8A-3F3C-B2E5-8AA4966D8783}</UniqueIdentifier>
     </Filter>
     <Filter Include="PDF Embedding\Parsed Objects">
-      <UniqueIdentifier>{78B43066-A5A7-3B2A-9257-634DCE207B1B}</UniqueIdentifier>
+      <UniqueIdentifier>{1D59D2AD-2902-3551-A529-5739BF4B0354}</UniqueIdentifier>
     </Filter>
     <Filter Include="PDF Embedding\Parsed objects Helpers">
-      <UniqueIdentifier>{9790F741-16B4-3DC4-961E-EB44B974A677}</UniqueIdentifier>
+      <UniqueIdentifier>{745A91FA-293A-39FA-BCF2-F458312BB1C5}</UniqueIdentifier>
     </Filter>
     <Filter Include="PDF Embedding\PredictionFilters">
-      <UniqueIdentifier>{F2A69403-FD5F-3FAE-B2D6-D42E817AC0EE}</UniqueIdentifier>
+      <UniqueIdentifier>{2EB5EE45-17DB-36F2-BE66-4246F131CEB4}</UniqueIdentifier>
     </Filter>
     <Filter Include="State Serialization">
-      <UniqueIdentifier>{21884D4D-E38E-3F11-AB60-33D767511F3C}</UniqueIdentifier>
+      <UniqueIdentifier>{D9584249-0AD4-30AB-94B8-558E539516FA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text">
-      <UniqueIdentifier>{43BBD1F4-66FA-3400-B5D1-B1A3E2BE643F}</UniqueIdentifier>
+      <UniqueIdentifier>{9C0708D6-E970-3751-9896-E32F2F0441C9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\CFF">
-      <UniqueIdentifier>{2771297F-D761-364F-894C-7D351A6CB6CD}</UniqueIdentifier>
+      <UniqueIdentifier>{7C972228-5811-3785-8CD8-27F4E7665F77}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\FreeType">
-      <UniqueIdentifier>{2C11EBE8-7933-30E8-938C-766757149B7D}</UniqueIdentifier>
+      <UniqueIdentifier>{13D417A8-C88F-3ACD-833D-1F2EF304BE02}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\OpenType">
-      <UniqueIdentifier>{4C82784F-9AC6-30AE-A18A-1453FE1F2F13}</UniqueIdentifier>
+      <UniqueIdentifier>{501A2658-7740-37D9-A022-8AD843DE2CE2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\PDF Font Definitions">
-      <UniqueIdentifier>{B14F8D24-D17C-3108-B2D2-C15A00F3C9FF}</UniqueIdentifier>
+      <UniqueIdentifier>{5F8711C6-3BD0-3457-9070-6F850D2F18FD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\TrueType">
-      <UniqueIdentifier>{41013EE0-4E23-339D-BAE1-4083F811C948}</UniqueIdentifier>
+      <UniqueIdentifier>{3CBEFE77-85B2-3B2E-9CBF-6BB41B453498}</UniqueIdentifier>
     </Filter>
     <Filter Include="Text\Type1">
-      <UniqueIdentifier>{E00FE859-CBBB-3C89-B4BB-57165FDAF68C}</UniqueIdentifier>
+      <UniqueIdentifier>{368C881B-3B9B-36DB-AD7D-37496DDE1833}</UniqueIdentifier>
     </Filter>
     <Filter Include="XCryption">
-      <UniqueIdentifier>{3A72F7F1-4DB3-39FB-9E21-71312C5C9F3E}</UniqueIdentifier>
+      <UniqueIdentifier>{6F89BEC1-525D-3760-8AC1-B2C81D2D9632}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
